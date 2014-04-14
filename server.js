@@ -30,10 +30,10 @@ function stub(name) {
     entities.push(name);
 }
 
-app.get("/stub-*", function(req, res) {    
-    var ent = (req.path.substr(1).split("/")[0]).split("-")[1];
-    if (ent && entities.indexOf(ent)==-1 && ent.indexOf(".")==-1) {
-        stub(ent);
+app.post("/entity/:name", function(req, res) {    
+    var entityName = req.params.name;
+    if (entityName && entities.indexOf(entityName)==-1 && entityName.indexOf(".")==-1) {
+        stub(entityName);
         res.end();
     }
 });
