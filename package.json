@@ -1,0 +1,17 @@
+{
+  "name": "rest-stubs-express4",
+  "description": "Generates temporary stub REST endpoints using Express 4.x",
+  "version": "0.1.5",
+  "author": {
+    "name": "Adam Breindel",
+	"email": "adbreind@gmail.com"
+  },
+  "dependencies": {
+    "express": ">= 4.0.0",
+	"morgan" : ">= 1.0.0",
+	"body-parser" : ">= 1.0.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
