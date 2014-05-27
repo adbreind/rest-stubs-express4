@@ -38,7 +38,7 @@ app.post("/entity/:name", function(req, res) {
     }
 });
 
-stubGenerator.initializeEntity("book", [{"title":"Great Expectations","id":"2"},{"title":"Bleak House","id":"4"}]);
+stubGenerator.initializeEntity("book", [{"title":"Great Expectations","id":2},{"title":"Bleak House","id":4}]);
 stub("book");
 
 stubGenerator.initializeEntity("contact", [
