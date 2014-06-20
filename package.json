@@ -1,10 +1,15 @@
 {
   "name": "rest-stubs-express4",
   "description": "Generates temporary stub REST endpoints using Express 4.x",
+  "main": "server.js",
   "version": "0.1.5",
   "author": {
     "name": "Adam Breindel",
 	"email": "adbreind@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adbreind/rest-stubs-express4.git"
   },
   "dependencies": {
     "express": ">= 4.0.0",
